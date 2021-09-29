@@ -4,7 +4,7 @@ import { Observable } from 'rxjs';
 import { Movie } from '../models/movie';
 
 @Injectable({ providedIn: 'root' })
-export class RecipeService {
+export class MovieService {
   private baseUrl = 'http://localhost:5000/api';
 
   constructor(private http: HttpClient) {}

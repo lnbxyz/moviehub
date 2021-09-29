@@ -1,1 +1,16 @@
-<p>list works!</p>
+<table>
+  <thead>
+    <th>Title</th>
+    <th>Year</th>
+    <th>Director</th>
+    <th>Category</th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let movie of movies">
+      <td>{{ movie.title }}</td>
+      <td>{{ movie.year }}</td>
+      <td>{{ movie.director }}</td>
+      <td>{{ movie.category }}</td>
+    </tr>
+  </tbody>
+</table>
