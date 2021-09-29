@@ -1,1 +1,15 @@
-<p>create works!</p>
+<form [formGroup]="form">
+  <label for="title">Title</label>
+  <input type="text" name="title" formControlName="title" />
+
+  <label for="year">Year</label>
+  <input type="text" name="year" formControlName="year" />
+
+  <label for="director">Director</label>
+  <input type="text" name="director" formControlName="director" />
+
+  <label for="category">Category</label>
+  <input type="text" name="category" formControlName="category" />
+
+  <button (click)="submit()">Create</button>
+</form>
