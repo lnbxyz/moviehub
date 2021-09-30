@@ -1,12 +1,14 @@
-<nav>
-  <h1>MovieHub</h1>
-  <ul>
-    <li>
-      <a [routerLink]="['list']" routerLinkActive="active">List</a>
-    </li>
-    <li>
-      <a [routerLink]="['create']" routerLinkActive="active">Create</a>
-    </li>
-  </ul>
-</nav>
-<router-outlet></router-outlet>
+<main>
+  <nav>
+    <h1>MovieHub</h1>
+    <ul>
+      <li>
+        <a routerLink="/list" routerLinkActive="active">List</a>
+      </li>
+      <li>
+        <a routerLink="/create" routerLinkActive="active">Create</a>
+      </li>
+    </ul>
+  </nav>
+  <router-outlet></router-outlet>
+</main>

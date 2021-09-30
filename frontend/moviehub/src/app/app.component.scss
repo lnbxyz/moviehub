@@ -1,5 +1,40 @@
+main {
+  padding: 1rem 2rem;
+}
+
 nav {
-  li.active {
-    color: red !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  gap: 1rem;
+
+  h1 {
+    margin: 0;
+  }
+
+  ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 1rem;
+  }
+
+  a {
+    text-decoration: none;
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: unset;
+    transition: all 0.1s ease-in-out;
+
+    &.active {
+      text-decoration: underline 2px;
+      color: hsl(209, 100, 55);
+    }
+
+    &:hover {
+      color: hsl(207, 100, 63);
+    }
   }
 }
