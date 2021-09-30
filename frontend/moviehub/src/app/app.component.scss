@@ -30,11 +30,11 @@ nav {
 
     &.active {
       text-decoration: underline 2px;
-      color: hsl(209, 100, 55);
+      color: hsl(209, 100%, 55%);
     }
 
     &:hover {
-      color: hsl(207, 100, 63);
+      color: hsl(207, 100%, 63%);
     }
   }
 }

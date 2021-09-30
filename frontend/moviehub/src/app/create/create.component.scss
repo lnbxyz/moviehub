@@ -19,7 +19,7 @@ label {
 }
 
 button {
-  background-color: hsl(209, 100, 55);
+  background-color: hsl(209, 100%, 55%);
   color: white;
   border: none;
   text-shadow: 0 -1px 0 hsla(0, 0%, 0%, 0.1);
@@ -33,7 +33,7 @@ button {
 
   &:hover {
     cursor: pointer;
-    background-color: hsl(207, 100, 63);
+    background-color: hsl(207, 100%, 63%);
   }
 }
 
